@@ -1,0 +1,44 @@
+{
+    "name": "Akshi Userbot",
+    "description": "Best Telegram Userbot.",
+    "keywords": [
+       "telegram",
+       "telethon",
+       "userbot",
+       "Akshi"
+    ],   
+ "repository": "https://github.com/noob-kittu/Akshi-Userbot",
+ "addons": [
+    {
+       "options": {
+          "version": "12"
+       },
+       "plan": "heroku-postgresql"
+    }
+ ],
+ "env": {
+    "STRING_SESSION": {
+       "description": "Generate telethon string session and input below",
+       "required": true,
+       "value": ""
+    },
+    "BOT_LOG": {
+        "description": "Make a channel or group and add id with -100",
+        "required": true,
+        "value": ""
+     },
+
+     "BOT_TOKEN": {
+        "description": "Make a bot from bot father and inset bot token below",
+        "required": true,
+        "value": ""
+     },
+
+     "BOT_USERNAME": {
+        "description": "insert bot username below",
+        "required": true,
+        "value": ""
+     }
+    
+ }
+}
